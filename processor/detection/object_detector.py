@@ -29,5 +29,5 @@ class ObjectDetection(ObjecDetectionInterface):
         log.info(f"🚀 Modelo cargado en dispositivo: {self.device}")
 
     def inference(self, image: np.ndarray) -> Tuple[List[Results], Dict[int, str]]:
-        results = self.object_model(image, conf=0.25, iou=0.45, verbose=True, imgsz=640)
+        results = self.object_model(image, conf=0.25, iou=0.45, verbose=True, imgsz=640, device=str(self.device))
         return results, self.object_model.names
