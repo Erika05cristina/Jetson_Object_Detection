@@ -20,7 +20,7 @@ Este proyecto implementa un sistema de detección de objetos en tiempo real util
 ### 1. Clonar el Repositorio
 
 ```bash
-git clone https://github.com/yourusername/jetson-object-detection.git
+git clone https://github.com/Erika05cristina/Jetson_Object_Detection
 cd jetson-object-detection
 ```
 
